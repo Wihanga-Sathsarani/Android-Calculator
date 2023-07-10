@@ -1,0 +1,146 @@
+
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context="com.example.tech.assignment2.Calculator"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#008080"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="N1"
+            android:textSize="35dp"
+            android:id="@+id/txtnum1"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <EditText
+            android:layout_width="263dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/num1"
+            android:textColor="#ffffff"
+            android:layout_weight="0.13"
+            android:textSize="30dp"
+            android:layout_marginLeft="30dp"
+            android:inputType="number"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="N2"
+            android:textSize="35dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:id="@+id/txtnum2"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <EditText
+            android:layout_width="263dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/num2"
+            android:layout_marginLeft="30dp"
+            android:textColor="#ffffff"
+            android:layout_weight="0.13"
+            android:textSize="30dp"
+            android:inputType="number"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="60dp">
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textStyle="bold"
+            android:id="@+id/btnAdd"
+            android:background="#ffffff"
+            android:textSize="35dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:id="@+id/btnSub"
+            android:textStyle="bold"
+            android:background="#ffffff"
+            android:textSize="35dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="*"
+            android:id="@+id/btnMul"
+            android:textStyle="bold"
+            android:background="#ffffff"
+            android:textSize="35dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="/"
+            android:id="@+id/btnDiv"
+            android:textStyle="bold"
+            android:background="#ffffff"
+            android:textSize="35dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginLeft="35dp"/>
+
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/answer"
+            android:layout_marginTop="70dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="30dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"/>
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
